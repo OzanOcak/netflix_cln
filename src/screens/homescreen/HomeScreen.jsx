@@ -1,3 +1,4 @@
+import Banner from "../../components/banner/Banner";
 import Nav from "../../components/nav/Nav";
 import "./homescreen.css";
 function HomeScreen() {
@@ -6,34 +7,8 @@ function HomeScreen() {
       {/** Nav */}
       <Nav />
 
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-      <h1>TEST</h1>
-
       {/** Banner */}
+      <Banner />
 
       {/** Row */}
     </div>
