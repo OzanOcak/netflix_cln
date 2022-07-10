@@ -9,10 +9,7 @@ function Banner() {
   useEffect(() => {
     console.log("-----> before async");
     async function fetchData() {
-      const request = await axios.get(
-        requests.fetchTrending
-        // "https://api.themoviedb.org/3/trending/all/week?api_key=fb0531b29823867e0543d8c587bd6f69&language=en-us"
-      );
+      const request = await axios.get(requests.fetchTrending);
       console.log("----->" + request);
       setMovie(
         request.data.results[

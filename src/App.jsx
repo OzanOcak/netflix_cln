@@ -4,7 +4,7 @@ import HomeScreen from "./screens/homescreen/HomeScreen";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <HomeScreen />
     </div>
   );
